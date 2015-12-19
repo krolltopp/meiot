@@ -1,0 +1,32 @@
+{
+  "name": "meiot",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "cookie-parser": "^1.3.3",
+    "express": "^4.13.3",
+    "lodash": "^3.10.1",
+    "mongoose": "^4.2.8",
+    "morgan": "^1.6.1",
+    "node-restful": "^0.2.4",
+    "passport": "^0.3.2",
+    "postal": "^1.0.7",
+    "q": "^1.4.1",
+    "serve-favicon": "^2.3.0"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.9.1",
+    "gulp": "^3.9.0",
+    "gulp-coffee": "^2.3.1",
+    "gulp-live-server": "0.0.29",
+    "gulp-livereload": "^3.8.0",
+    "gulp-nodemon": "^2.0.2",
+    "gulp-plumber": "^1.0.0",
+    "gulp-sass": "^2.0.4",
+    "gulp-util": "^3.0.7"
+  }
+}
